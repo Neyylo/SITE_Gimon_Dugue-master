@@ -1,0 +1,58 @@
+<!ENTITY % iucnredlist "(DD|LC|NT|VU|EN|CR|EW|EX)">
+
+<!ENTITY % coreattrs "id       ID      #IMPLIED
+	  class    CDATA   #IMPLIED
+	  title    CDATA   #IMPLIED"
+>
+
+<!ENTITY % URI "CDATA">
+<!-- a Uniform Resource Identifier, see [RFC2396] -->
+
+<!ENTITY % Length "CDATA">
+<!-- nn for pixels or nn% for percentage length -->
+
+<!ENTITY % Text "CDATA">
+<!-- used for titles etc. -->
+
+
+<!ELEMENT animal (name,img,informations,links?)>
+<!ATTLIST animal %coreattrs;>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name %coreattrs;>
+
+<!ELEMENT img EMPTY>
+<!ATTLIST img %coreattrs; src         %URI; #REQUIRED
+	  alt         %Text; #REQUIRED
+	  longdesc    %URI;          #IMPLIED
+	  height      %Length;       #IMPLIED
+	  width       %Length;       #IMPLIED
+	  >
+
+<!ELEMENT informations (scientificname,classification,habitat,endangerment)>
+<!ATTLIST informations %coreattrs;>
+
+<!ELEMENT scientificname (#PCDATA)>
+<!ATTLIST scientificname %coreattrs;>
+
+<!ELEMENT classification (#PCDATA)>
+<!ATTLIST classification %coreattrs;>
+
+<!ELEMENT habitat (climate,location?)>
+<!ATTLIST habitat %coreattrs;>
+
+<!ELEMENT climate (#PCDATA)>
+<!ATTLIST climate %coreattrs;>
+
+<!ELEMENT location (#PCDATA|img)*>
+<!ATTLIST location %coreattrs;>
+
+<!ELEMENT endangerment EMPTY>
+<!ATTLIST endangerment %coreattrs; danger %iucnredlist; #REQUIRED
+	  href  %URI;   #REQUIRED>
+
+<!ELEMENT links (link)+>
+<!ATTLIST link %coreattrs;>
+
+<!ELEMENT link EMPTY>
+<!ATTLIST link %coreattrs; href  %URI;   #REQUIRED>

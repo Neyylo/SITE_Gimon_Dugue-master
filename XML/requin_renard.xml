@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animal SYSTEM "animals.dtd">
+<animal>
+    <name>Requin renard</name>
+    <img src="../Images/Requin_renard/img.jpg" alt="Image de requin renard"/>
+    <informations>
+        <scientificname>Alopias vulpinus</scientificname>
+        <classification>Poisson cartilagineux, elasmobranchii</classification>
+        <habitat>
+            <climate>Oceans tempérés et tropicaux</climate>
+            <location>
+                <img src="../Images/Requin_renard/map.webp" alt="Localisation des requins renards"/>
+            </location>
+        </habitat>
+        <endangerment danger="VU" href="https://www.iucnredlist.org/fr"/>
+    </informations>
+    <links>
+        <link href="https://fr.wikipedia.org/wiki/Requin-renard"/>
+        <link href="https://www.iucnredlist.org/fr/species/39339/212641186"/>
+        <link href="https://geerg.ca/requin-renard/"/>
+    </links>
+</animal>

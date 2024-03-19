@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animal SYSTEM "animals.dtd">
+
+<animal>
+    <name>Ours Polaire</name>
+    <img src="D:/L1%20programmation/L1%20Web/polar%20bear/Polar_Bear_2004-11-15%20(1).jpg"
+        alt="Image d'ours polaire" />
+    <informations>
+        <scientificname>Ursus maritimus</scientificname>
+        <classification>Mammalia</classification>
+        <habitat>
+            <climate>Banquise</climate>
+            <location>
+                <img src="D:/L1%20programmation/L1%20Web/polar%20bear/loaction.svg"
+                    alt="Localisation des Ours Polaire" />
+            </location>
+        </habitat>
+        <endangerment danger="VU" href="https://www.iucnredlist.org/fr" />
+    </informations>
+    <links>
+        <link href="https://fr.wikipedia.org/wiki/Ours_blanc#" />
+        <link href="https://www.iucnredlist.org/fr/species/22823/14871490" />
+    </links>
+</animal>
+ 

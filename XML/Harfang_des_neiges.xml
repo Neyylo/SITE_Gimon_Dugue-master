@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animal SYSTEM "animals.dtd">
+
+<animal>
+    <name>Harfang des neiges</name>
+    <img src="D:/L1%20programmation/L1%20Web/Harfang%20neige/240px-Bubo_scandiacus_Delta_3.jpg"
+        alt="Image d'Harfang des neiges" />
+    <informations>
+        <scientificname>Bubo scandiacus</scientificname>
+        <classification>Aves</classification>
+        <habitat>
+            <climate>Banquise</climate>
+            <location>
+                <img
+                    src="D:/L1%20programmation/L1%20Web/Harfang%20neige/Capture%20d’écran%202024-02-17%20145209.png"
+                    alt="Localisation des Harfangs des neiges" />
+            </location>
+        </habitat>
+        <endangerment danger="VU" href="https://www.iucnredlist.org/fr" />
+    </informations>
+    <links>
+        <link href="https://fr.wikipedia.org/wiki/Harfang_des_neiges" />
+        <link href="https://www.iucnredlist.org/fr/species/22689055/205475036" />
+    </links>
+</animal>
+ 

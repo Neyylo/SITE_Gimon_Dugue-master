@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animal SYSTEM "animals.dtd">
+<animal>
+    <name>Grand pangolin d'inde</name>
+    <img src="../Images/Pangolin_indien/img.jpg" alt="Image de pangolin indien"/>
+    <informations>
+        <scientificname>Manis crassicaudata</scientificname>
+        <classification>Mammifère, pholidote, manidé</classification>
+        <habitat>
+            <climate>Forêts tropicales, subtropicales et riveraines</climate>
+            <location>
+                <img src="../Images/Pangolin_indien/map.webp" alt="Localisation des requins renards"/>
+            </location>
+        </habitat>
+        <endangerment danger="EN" href="https://www.iucnredlist.org/fr"/>
+    </informations>
+    <links>
+        <link href="https://fr.wikipedia.org/wiki/Grand_pangolin_d%27Inde"/>
+        <link href="https://www.iucnredlist.org/fr/species/12761/123583998"/>
+    </links>
+</animal>
