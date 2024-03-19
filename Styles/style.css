@@ -1,11 +1,22 @@
+
 h1{
     text-align: center;
 }
 
 html{
     background-color: whitesmoke;
+    font-family: "Inter Tight";
 }
 
 .organisation{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.w-62{
+    width: 65%;
 }
