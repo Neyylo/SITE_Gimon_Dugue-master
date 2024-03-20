@@ -1,5 +1,9 @@
 /*Nolan Dugué*/
 
+
+/*ici on a le style general de notre site*/
+
+/*l'élement html représente la page, ici on modifie donc la couleur du fond et le style d'écriture*/
 html{
     background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
@@ -17,6 +21,7 @@ div > h3 {
     color: red;
 }
 
+/*Ici  je fais en sorte que chaque première lettre de tous mes paragraphes soit en italique et plus large*/
 p::first-letter
 {
         font-style: italic ;
