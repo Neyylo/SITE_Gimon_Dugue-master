@@ -1,6 +1,6 @@
 
 .topnav {
-    background-color: #000000;
+    background-color: #393E46;
     overflow: hidden;
     margin: -12px;
   }
@@ -10,7 +10,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 16px;
     text-decoration: none;
     font-size: 17px;
     transition: ease-in-out all 300ms;

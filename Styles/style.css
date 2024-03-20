@@ -1,7 +1,7 @@
 
 html{
     background-color: whitesmoke;
-    font-family: "Inter";
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
@@ -11,6 +11,13 @@ h1{
 li a{
     color: blue;
 }
+
+p::first-letter
+{
+        font-style: italic ;
+        font-size: larger;
+}
+
 .organisation{
     text-align: center;
     display: flex;
@@ -23,3 +30,4 @@ li a{
 .w-65{
     width: 65%;
 }
+
