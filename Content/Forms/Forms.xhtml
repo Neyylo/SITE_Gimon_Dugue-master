@@ -26,13 +26,35 @@
 
     <p>Ici vous pouvez nous proposer des animaux a rajouter sur notre site !</p>
 
-    <form>
+    <form action="http://voca2.univ-poitiers.fr/~subrenat/cours_web/traitement.php" method="get">
+      <div class="Animal-name">
         <label for="Animal-name">Nom de l'animal :</label>
         <input name="Animal-name" id="Animal-name" type="text"/>
-        <label for="Vulnerability">Rang de vulnérabilité :</label>
-        <input name="Vulnerability" id="Vulnerability" type="text"/>
+      </div>
+      <div class="img">
         <label for="map-img">Image de sa localisation :</label>
         <input type="file" name="map-img" id="map-img"/>
+      </div>
+        
+        
+        <p>Rang de vulnérabilité : </p>
+        <input type="radio" id="LC" name="Vulnerability"/>
+        <label for="LC">LC</label>
+        <input type="radio" id="NT" name="Vulnerability"/>
+        <label for="NT">NT</label>
+        <input type="radio" id="VU" name="Vulnerability"/>
+        <label for="VU">VU</label>
+        <input type="radio" id="EN" name="Vulnerability"/>
+        <label for="EN">EN</label>
+        <input type="radio" id="CR" name="Vulnerability"/>
+        <label for="CR">CR</label>
+        <input type="radio" id="EW" name="Vulnerability"/>
+        <label for="EW">EW</label>
+        <input type="radio" id="EX" name="Vulnerability"/>
+        <label for="EX">EX</label>
+
+        <input class="submit" type="submit" value="Submit"/>
+    
     </form>
 
 </body>

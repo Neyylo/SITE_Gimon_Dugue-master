@@ -1,5 +1,5 @@
 input[type=text] {
-    width: 50px; 
+    width:min-content; 
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -11,12 +11,21 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    width: 150px;
+    width: 200px;
 }
 
-form{
+.Animal-name+.img{
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-weight: bold ;
+}
+
+p{
+    font-weight: bold;
+}
+.submit{
+    display: flex;  
+    width: fit-content;
+    font-weight:300;
 }
